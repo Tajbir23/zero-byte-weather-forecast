@@ -9,6 +9,10 @@ This is a responsive web application that integrates with the OpenWeatherMap API
 - **Responsive Design**: Adapts to various screen sizes for optimal viewing on all devices.
 - **Dynamic Animations**: Includes animations for a more engaging user experience.
 
+## Live Demo
+
+Check out the live application [here](https://zero-byte-weather-app-tajbir.web.app/).
+
 ## Getting Started
 
 ### Prerequisites
@@ -35,19 +39,43 @@ This is a responsive web application that integrates with the OpenWeatherMap API
    npm install
    ```
 
+### Environment Setup
+
+Create a `.env` file in the root of your project and add your OpenWeatherMap API key:
+
+```plaintext
+VITE_OPENWEATHER_API_KEY=your_api_key_here
+```
+
 ### Running the Application
 
 To start the application, run:
 
 ```bash
-npm run dev
+npm start
 ```
 
-This will start the development server, and you can access the application at `http://localhost:5173`.
+This will start the development server and open the application in your default web browser.
 
-## API Key
+### Usage
 
-This project uses the OpenWeatherMap API. You need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
+- **Search for a City**: Enter a city name in the input field and click "Search" to get the weather data.
+- **View Weather Details**: The application displays temperature, humidity, wind speed, and more.
 
-1. **Create an Account**: If you don't already have one, create an account on [OpenWeatherMap](https://openweathermap.org/).
+### Note
 
+This application is for demonstration purposes and uses a free API key, which may have limitations on the number of requests.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [OpenWeatherMap](https://openweathermap.org/) for providing the weather data.
+- [React](https://reactjs.org/) for the front-end framework.
+- [Tailwind CSS](https://tailwindcss.com/) for styling and responsive design.
