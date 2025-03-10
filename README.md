@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-This is a responsive web application that integrates with the OpenWeatherMap API to display current weather conditions for a specified location. By default, it shows the weather for Kurigram, and users can search for other cities to view detailed weather information.
+This is a responsive web application that integrates with the OpenWeatherMap API to display current weather conditions and forecasts for a given location. Users can search for cities and view detailed weather information.
 
 ## Features
 
@@ -24,13 +24,13 @@ Check out the live application [here](https://zero-byte-weather-app-tajbir.web.a
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Tajbir23/zero-byte-weather-forecast.git
+   git clone https://github.com/yourusername/weather-forecast-app.git
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd zero-byte-weather-forecast
+   cd weather-forecast-app
    ```
 
 3. **Install Dependencies**:
@@ -52,7 +52,7 @@ VITE_OPENWEATHER_API_KEY=your_api_key_here
 To start the application, run:
 
 ```bash
-npm run dev
+npm start
 ```
 
 This will start the development server and open the application in your default web browser.
@@ -62,7 +62,19 @@ This will start the development server and open the application in your default 
 - **Search for a City**: Enter a city name in the input field and click "Search" to get the weather data.
 - **View Weather Details**: The application displays temperature, humidity, wind speed, and more.
 
-### Note
+## Design Choices
+
+- **Responsive Design**: Utilized Tailwind CSS to ensure the application is responsive and visually appealing across all devices. The use of utility-first CSS allows for rapid styling and easy maintenance.
+- **User Experience**: Added animations, such as a bounce effect on the weather icon, to enhance user engagement and provide a dynamic feel to the application.
+- **API Integration**: Integrated with the OpenWeatherMap API to fetch real-time weather data, ensuring users receive up-to-date information. The API key is managed through environment variables for security.
+- **Error Handling**: Implemented error handling to provide feedback to users when data fetching fails, improving the overall user experience.
+
+## Submission Guidelines
+
+- **Repository**: Share your code via a public GitHub repository or a similar platform.
+- **Comments**: Include additional comments or explanations about your design choices in this README file.
+
+## Note
 
 This application is for demonstration purposes and uses a free API key, which may have limitations on the number of requests.
 

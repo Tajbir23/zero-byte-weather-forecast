@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Component for the weather search form
 const WeatherForm = ({ city, setCity, fetchWeather, loading }) => {
   return (
     <form onSubmit={fetchWeather} className="flex flex-col sm:flex-row items-center justify-center gap-4">
