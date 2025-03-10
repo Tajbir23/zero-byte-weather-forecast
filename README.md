@@ -24,13 +24,13 @@ Check out the live application [here](https://zero-byte-weather-app-tajbir.web.a
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/weather-forecast-app.git
+   git clone https://github.com/Tajbir23/zero-byte-weather-forecast.git
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd weather-forecast-app
+   cd zero-byte-weather-forecast
    ```
 
 3. **Install Dependencies**:
@@ -52,7 +52,7 @@ VITE_OPENWEATHER_API_KEY=your_api_key_here
 To start the application, run:
 
 ```bash
-npm start
+npm run dev
 ```
 
 This will start the development server and open the application in your default web browser.
